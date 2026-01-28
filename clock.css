@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: radial-gradient(circle at 50% 50%, #2a2b3c, #1e1f2f);
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height:100vh;
+}
+#clock{
+    height:300px;
+    width:550px;
+    border:2px solid  rgba(120, 140, 255, 0.35);;
+    padding:100px 50px;
+    font-size: 5rem;
+    border-radius: 70px;
+    box-shadow: 
+    0 0 20px rgba(90, 120, 255, 0.35),
+    0 0 60px rgba(120, 90, 255, 0.25);
+}
+.hour{
+    color: #6EA8FF;
+}
+.min{
+    color: #FF9F6E;  
+}
+.sec{
+    color: #6EA8FF;
+}
+.ampm {
+    color: #FFD166; 
+    font-size: 2rem;
+}
